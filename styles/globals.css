@@ -18,10 +18,13 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: white;
+}
+.stroke-text{
+  -webkit-text-stroke: 1px #9c8dfb;
+  -webkit-text-fill-color: transparent;  
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
